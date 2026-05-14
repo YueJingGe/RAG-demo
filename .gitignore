@@ -1,0 +1,19 @@
+# 忽略虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*~
+
+# 忽略大文件（如果你以后使用 LFS，可以不忽略，但现在先忽略）
+*.zip
+*.exe
+*.dll
+*.dylib
+
+myrag/faiss_index/
+
+test_doc.txt
