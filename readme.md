@@ -120,3 +120,7 @@ python3 -m pip install langchain-deepseek
 含义是：API Key 可用，但余额不足，所以 qa.invoke(query) 调用被拒绝
 
 解决方案：去 DeepSeek 控制台给当前账号充值，或换一个有余额的 Key
+
+# 扩展
+
+后续可以将 txt 换成 pdf、word 等进行学习
