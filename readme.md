@@ -1,6 +1,12 @@
 # 项目介绍
 
-LangChain+DeepSeek+Faiss搭建 RAG 知识库问答服务
+LangChain + DeepSeek + Faiss 搭建 RAG 知识库问答服务
+
+- LangChain 是一个大模型应用开发框架，负责流程编排、把整个 RAG 流程串联起来，包括加载文档（PDF、Word等）、把文档切成小段、调用 FAISS ，调用 DeepSeek等
+
+- DeepSeek 是大语言模型 LLM，负责理解、推理等生成答案
+
+- Faiss 作为向量数据库，负责存储、检索找出最相关的片段
 
 ## 要完成的业务
 
