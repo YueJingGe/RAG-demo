@@ -2,14 +2,21 @@
 
 LangChain+DeepSeek+Faiss搭建 RAG 知识库问答服务
 
-## 流程
+## 要完成的业务
 
 step1，收集整理知识库（客户经理考核办法.pdf只是示例，用你的PDF进行检索）
+
 Step2，从PDF中提取文本并记录每行文本对应的页码
+
 Step3，处理文本并创建向量存储
+
 step4，执行相似度搜索，找到与查询相关的文档
+
 Step5，使用问到链对用户问题进行回答（使用你的DASHSCOPE_APL_KEY）
+
 step6，显示每个文档块的来源页码（当前页码来源有问题，可以用Cursor完善）
+
+## 规划代码实现流程
 
 1、使用 TextLoader 来读取 .txt 文件内容，把其中的文字提取出来，变成 LangChain 能处理的 Document 对象（包含文本内容和元数据）
 
