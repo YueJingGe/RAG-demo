@@ -13,6 +13,6 @@ __pycache__/
 *.dll
 *.dylib
 
-myrag/faiss_index/
-myrag/faiss_index_pdf/
+faiss_index/
+faiss_index_pdf/
 test_doc.txt

@@ -129,7 +129,7 @@ qa.invoke("你的问题")  ← 你只需要这一行
 
 建议按以下顺序学习，从简单到复杂：
 
-### 📘 Demo 1：TXT 文本问答（`myrag/txt_rag_demo.ipynb`）
+### 📘 Demo 1：TXT 文本问答（`txt_rag_demo.ipynb`）
 
 **学习目标**：理解 RAG 的最小完整流程
 
@@ -137,7 +137,7 @@ qa.invoke("你的问题")  ← 你只需要这一行
 - 涵盖：加载 → 分块 → 向量化 → 存储 → 问答的完整链路
 - 代码简洁，适合初学者跑通第一个 RAG 应用
 
-### 📕 Demo 2：PDF 文档问答（`myrag/pdf_rag_demo.ipynb`）
+### 📕 Demo 2：PDF 文档问答（`pdf_rag_demo.ipynb`）
 
 **学习目标**：掌握真实文档场景下的 RAG 实践
 
@@ -161,14 +161,13 @@ RAG-demo/
 ├── .env                    # 环境配置（API Key 等，不要提交到 Git）
 ├── .gitignore              # Git 忽略规则
 ├── readme.md               # 本文档
-├── venv/                   # Python 虚拟环境
-└── myrag/                  # 核心代码目录
-    ├── txt_rag_demo.ipynb  # Demo 1：TXT 文本问答
-    ├── pdf_rag_demo.ipynb  # Demo 2：PDF 文档问答
-    ├── test_doc.txt        # Demo 1 的示例文本
-    ├── 低空无人机集群通信.pdf # Demo 2 的示例 PDF
-    ├── faiss_index/        # Demo 1 的向量库（自动生成）
-    └── faiss_index_pdf/    # Demo 2 的向量库（自动生成）
+├── txt_rag_demo.ipynb      # Demo 1：TXT 文本问答
+├── pdf_rag_demo.ipynb      # Demo 2：PDF 文档问答
+├── test_doc.txt            # Demo 1 的示例文本（自动生成）
+├── 低空无人机集群通信.pdf    # Demo 2 的示例 PDF
+├── faiss_index/            # Demo 1 的向量库（自动生成）
+├── faiss_index_pdf/        # Demo 2 的向量库（自动生成）
+└── venv/                   # Python 虚拟环境
 ```
 
 ---
