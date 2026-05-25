@@ -1,6 +1,14 @@
-# 🧠 RAG 智能文档问答系统 — 架构与设计解读
+# 🧠 RAG-demo：从零搭建 RAG 知识库问答系统
 
-> **LangChain + DeepSeek + FAISS** 搭建的 RAG 知识库问答服务，从零开始带你理解 RAG 架构思想并动手实践。
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-Framework-green.svg)](https://www.langchain.com/)
+[![DeepSeek](https://img.shields.io/badge/LLM-DeepSeek-purple.svg)](https://platform.deepseek.com/)
+[![FAISS](https://img.shields.io/badge/VectorDB-FAISS-orange.svg)](https://github.com/facebookresearch/faiss)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+> 使用 **LangChain + DeepSeek + FAISS** 搭建的 RAG（检索增强生成）知识库问答系统。支持 TXT / PDF 文档，适合 AI 初学者从零理解 RAG 架构思想并动手实践。
+>
+> **关键词**：RAG、检索增强生成、LangChain、DeepSeek、FAISS、向量检索、知识库问答、中文NLP、PDF问答、LLM应用开发
 
 ---
 
@@ -286,3 +294,13 @@ HF_ENDPOINT=https://hf-mirror.com
 - **语义缓存**：对相似问题命中缓存，避免重复调用 LLM
 - **多文档知识库**：同时加载多个文档，构建综合知识库
 - **Web 界面**：用 Streamlit 或 Gradio 给系统加一个交互式前端
+
+---
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！如果这个项目对你有帮助，请给一个 ⭐ Star，这是对我最大的鼓励。
+
+## 📄 License
+
+本项目基于 [MIT License](./LICENSE) 开源。
